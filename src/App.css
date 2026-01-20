@@ -17,7 +17,7 @@ a {
   display: inline-block;
   margin: 10px;
   padding: 10px;
-  background-color: #61dafb;
+  background-color: #ffffff;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -28,6 +28,7 @@ a {
   text-decoration: none;
   color: inherit;
 transition: 200ms ease-in-out;
+border: 1px solid black;
   /* animation: App-logo-spin infinite 10s linear; */
 
 }
