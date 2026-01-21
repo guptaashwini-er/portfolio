@@ -23,8 +23,8 @@ function Footer() {
 
             <div className='footer-item'>
                 <h3>Contact Me</h3>
-                <p>Email: ashwinigupta@example.com</p>
-                <p>Phone: +123 456 7890</p>
+                <p>Email: ashwinigupta9044@gmail.com</p>
+                <p>Phone: +91 9580262921</p>
 
             </div>
         </div>
