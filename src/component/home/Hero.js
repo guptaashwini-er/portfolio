@@ -51,7 +51,7 @@ function Hero() {
 
 
 
-        <div className='hero-bg' style={{display:"flex", justifyContent:"center",  border:"2px solid black", margin:"20px", borderRadius:"20px"}}>
+        <div className='hero-bg' style={{display:"flex", justifyContent:"center",  border:"2px solid #00f7ff", margin:"20px", borderRadius:"20px"}}>
         <div  className='hero-container' style={{display:"flex", justifyContent:"", alignItems:"center", width:"80%"}}>
             <div>
             <h1 style={{fontSize:"50px"}}>Welcome to My Portfolio <h1 className='typing'>{text}</h1> </h1>
@@ -65,10 +65,10 @@ function Hero() {
 
 
             <div style={{display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center", gap:"20px"}}>
-                <div className='profile-img' style={{width:"450px" ,objectFit:"cover", height:"450px", borderRadius:"50%", overflow:"hidden", display:"flex", justifyContent:"center", alignItems:"center", border:"2px solid black"}}>
+                <div className='profile-img' >
                 <img src="image\profile.jpg" alt="Ashwini Gupta" style={{width:"100%", height:"100%", objectFit:"cover"}} />
                 </div>
-                <div style={{fontSize:"20px", fontWeight:"bold"}}>Developer</div>
+                <div style={{fontSize:"50px", fontWeight:"bold", display:"flex", justifyContent:"center", alignItems:"center"}}>Developer</div>
             </div>
         </div>
 

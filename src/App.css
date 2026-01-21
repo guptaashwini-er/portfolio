@@ -6,6 +6,7 @@ body
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ 
 }
 
 
@@ -28,7 +29,7 @@ a {
   text-decoration: none;
   color: inherit;
 transition: 200ms ease-in-out;
-border: 1px solid black;
+border: 1px solid #00f7ff;
   /* animation: App-logo-spin infinite 10s linear; */
 
 }

@@ -1,25 +1,25 @@
-.hero-bg{
+/* .hero-bg{
         
 
  /* blur edges fix */
   
    
-     background-image: url('https://img.freepik.com/free-vector/abstract-horizontal-grid-lines-graph-style-graphic-design_1017-39918.jpg');
+     /* background-image: url('https://img.freepik.com/free-vector/abstract-horizontal-grid-lines-graph-style-graphic-design_1017-39918.jpg');
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: center; */
         
        
 
 
     
-}
+/* } */
 
 p{
     font-size: 18px;
     line-height: 1.6;
     margin-top: 10px;
-    color: #555;
+    color: #000000;
 }
 
 .typing {
@@ -53,11 +53,27 @@ p{
     }
 }
 
+.profile-img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 50px;
+  border: 2px solid #00f7ff;
+  border-radius: 50%;
+  overflow: hidden;
+
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
 
 @media screen and (max-width: 768px) {
   .profile-img {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     margin: 0 auto;
     display: block;
   }
