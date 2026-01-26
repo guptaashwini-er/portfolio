@@ -8,7 +8,30 @@ body
   -moz-osx-font-smoothing: grayscale;
  
 }
+/* 
+text copy select  off */
 
+*{
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+/* .navbar-title {
+  font-weight: 700;
+  letter-spacing: 1px;
+} */
+
+@media screen and (max-width: 768px) {
+  .navbar-title {
+   display: none;
+   margin: 0;
+   padding: 0;
+  }
+  
+}
 
 
 a {
